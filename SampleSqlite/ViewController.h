@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
+
+@property (strong, nonatomic) IBOutlet UIButton *Save_btn;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_firstName;
+@property (strong, nonatomic) IBOutlet UILabel *lbl_lastName;
+@property (strong, nonatomic) IBOutlet UITextField *txtfld_FirstName;
+@property (strong, nonatomic) IBOutlet UITextField *txtfld_lastName;
 
 @end
 
