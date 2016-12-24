@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "DBManager.h"
 #import "FMDatabase.h"
+#import "MBProgressHUD.h"
+
 @interface ViewController ()
 
 @property (atomic,strong)   NSString *imageString;
@@ -45,13 +47,11 @@
     [database close];
     
     
-    
-    
-    
 }
 
 - (IBAction)selectPhoto:(UIButton *)sender {
-    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
     picker.allowsEditing = YES;
@@ -70,7 +70,8 @@
     _imageString = [self encodeToBase64String:chosenImage];
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
-    
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+
 }
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     
