@@ -21,6 +21,7 @@
 		0E1705BF1E0D66F600F08728 /* DisplayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1705BE1E0D66F600F08728 /* DisplayTableViewCell.m */; };
 		0E1705C21E0D6ABD00F08728 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1705C11E0D6ABD00F08728 /* DBManager.m */; };
 		0E2359831E0E4699003D60DF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2359821E0E4699003D60DF /* MBProgressHUD.m */; };
+		0E59C60C1E13CB2100D98181 /* SQLiteManager.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0E59C60B1E13CB2100D98181 /* SQLiteManager.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		0E1705C11E0D6ABD00F08728 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		0E2359811E0E4699003D60DF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		0E2359821E0E4699003D60DF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0E59C60B1E13CB2100D98181 /* SQLiteManager.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = SQLiteManager.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		0E17058A1E0D64E500F08728 = {
 			isa = PBXGroup;
 			children = (
+				0E59C60B1E13CB2100D98181 /* SQLiteManager.zip */,
 				0E1705951E0D64E600F08728 /* SampleSqlite */,
 				0E1705941E0D64E600F08728 /* Products */,
 				0E1705AD1E0D64F500F08728 /* Frameworks */,
@@ -211,6 +214,7 @@
 				0E1705A61E0D64E600F08728 /* LaunchScreen.storyboard in Resources */,
 				0E1705A31E0D64E600F08728 /* Assets.xcassets in Resources */,
 				0E1705A11E0D64E600F08728 /* Main.storyboard in Resources */,
+				0E59C60C1E13CB2100D98181 /* SQLiteManager.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
